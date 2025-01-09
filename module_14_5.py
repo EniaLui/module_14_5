@@ -8,7 +8,7 @@ from crud_functions import initiate_db, get_all_products, add_products, add_user
 initiate_db()
 add_products()
 
-api = "7501195936:AAFX38VsGr1Birsl-ieYcuT6wv3TJCnKoTE"
+api = "ключ для бота"
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
